@@ -2,7 +2,7 @@
 
 Swift 2 OptionSetType. 
 
-The RawOptionSetType examples are in a separate project.
+The RawOptionSetType examples are in a [separate project](https://github.com/genedelisa/RawOptionSetfrobs/).
 
 
 ## Blog post for this example.
