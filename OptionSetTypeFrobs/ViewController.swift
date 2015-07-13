@@ -29,22 +29,22 @@ class ViewController: UIViewController {
         print(hoagie)
         print(hoagie.hasIngredients())
         
-        print("old hoagie now")
-        var hoagie1 = Hoagie1()
-        hoagie1.regular()
-        print(hoagie1)
-        print(hoagie1.hasIngredients())
-        hoagie1.plain()
-        print(hoagie1)
-        print(hoagie1.hasIngredients())
-
-        if !hoagie1.hasOnions() {
-            print("does not have onions")
-        }
-        hoagie1.addOnions()
-        if hoagie1.hasOnions() {
-            print("has onions")
-        }
+//        print("old hoagie now")
+//        var hoagie1 = Hoagie1()
+//        hoagie1.regular()
+//        print(hoagie1)
+//        print(hoagie1.hasIngredients())
+//        hoagie1.plain()
+//        print(hoagie1)
+//        print(hoagie1.hasIngredients())
+//
+//        if !hoagie1.hasOnions() {
+//            print("does not have onions")
+//        }
+//        hoagie1.addOnions()
+//        if hoagie1.hasOnions() {
+//            print("has onions")
+//        }
 
         
         let settings = UIUserNotificationSettings(forTypes: [.Alert, .Badge], categories: nil)

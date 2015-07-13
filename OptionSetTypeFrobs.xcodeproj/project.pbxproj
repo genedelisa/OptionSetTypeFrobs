@@ -15,7 +15,6 @@
 		B001A19A1B30565C00B3CA2A /* OptionSetTypeFrobsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001A1991B30565C00B3CA2A /* OptionSetTypeFrobsTests.swift */; };
 		B001A1A51B30565C00B3CA2A /* OptionSetTypeFrobsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001A1A41B30565C00B3CA2A /* OptionSetTypeFrobsUITests.swift */; };
 		B001A1B31B30578C00B3CA2A /* Hoagie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001A1B21B30578C00B3CA2A /* Hoagie.swift */; };
-		B01A277E1B34733D00F13414 /* Hoagie1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A277D1B34733D00F13414 /* Hoagie1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		B001A1A41B30565C00B3CA2A /* OptionSetTypeFrobsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSetTypeFrobsUITests.swift; sourceTree = "<group>"; };
 		B001A1A61B30565C00B3CA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B001A1B21B30578C00B3CA2A /* Hoagie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hoagie.swift; sourceTree = "<group>"; };
-		B01A277D1B34733D00F13414 /* Hoagie1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hoagie1.swift; sourceTree = "<group>"; };
 		B01A277F1B3475A300F13414 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +108,6 @@
 				B001A18D1B30565C00B3CA2A /* LaunchScreen.storyboard */,
 				B001A1901B30565C00B3CA2A /* Info.plist */,
 				B001A1B21B30578C00B3CA2A /* Hoagie.swift */,
-				B01A277D1B34733D00F13414 /* Hoagie1.swift */,
 			);
 			path = OptionSetTypeFrobs;
 			sourceTree = "<group>";
@@ -265,7 +262,6 @@
 			files = (
 				B001A1B31B30578C00B3CA2A /* Hoagie.swift in Sources */,
 				B001A1871B30565C00B3CA2A /* ViewController.swift in Sources */,
-				B01A277E1B34733D00F13414 /* Hoagie1.swift in Sources */,
 				B001A1851B30565C00B3CA2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

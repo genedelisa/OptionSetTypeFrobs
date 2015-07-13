@@ -8,6 +8,7 @@
 
 import Foundation
 
+//@available(iOS 9, *)
 struct Hoagie {
     
     var name = "Hoagie"
@@ -46,19 +47,21 @@ struct Hoagie {
    
 }
 
+
 struct HoagieIngredients : OptionSetType {
     let rawValue: UInt
     static let None = HoagieIngredients(rawValue: 0)
     static let Lettuce = HoagieIngredients(rawValue: 1)
-    static let Tomatoes = HoagieIngredients(rawValue: 2)
-    static let Onions = HoagieIngredients(rawValue: 3)
-    static let Oil = HoagieIngredients(rawValue: 4)
-    static let Vinegar = HoagieIngredients(rawValue: 5)
-    static let Peppers = HoagieIngredients(rawValue: 6)
-    static let Pickles = HoagieIngredients(rawValue: 7)
-    static let Salt = HoagieIngredients(rawValue: 8)
-    static let Pepper = HoagieIngredients(rawValue: 9)
-    static let Oregano = HoagieIngredients(rawValue: 10)
+    static let Tomatoes = HoagieIngredients(rawValue: 1 << 1)
+    static let Onions = HoagieIngredients(rawValue: 1 << 2)
+    static let Oil = HoagieIngredients(rawValue: 1 << 3)
+    static let Vinegar = HoagieIngredients(rawValue: 1 << 4)
+    static let Peppers = HoagieIngredients(rawValue: 1 << 5)
+    static let Pickles = HoagieIngredients(rawValue: 1 << 6)
+    static let Salt = HoagieIngredients(rawValue: 1 << 7)
+    static let Pepper = HoagieIngredients(rawValue: 1 << 8)
+    static let Oregano = HoagieIngredients(rawValue: 1 << 9)
+    
 
     static let TheWorks:HoagieIngredients = [.Lettuce, .Tomatoes, .Onions, .Oil, .Vinegar, .Pickles, .Peppers, .Salt, .Pepper, .Oregano]
     
