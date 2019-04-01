@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>OptionSetFrobs 2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>OptionSetFrobs.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>OptionSetTypeFrobs.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +33,16 @@
 			<true/>
 		</dict>
 		<key>B001A19F1B30565C00B3CA2A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B058DB622252B53C00443AEE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B058DB752252B53E00443AEE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
